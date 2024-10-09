@@ -106,7 +106,7 @@ p{
     color: whitesmoke;
 }
 
-.hi{
+.page-1-buttons{
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@ p{
     padding-bottom: 40px;
 }
 
-.Mac{
+.Mac-download{
     padding: 16px 32px;
      border-radius: 28px;
     background-color: black;
@@ -129,7 +129,7 @@ p{
     letter-spacing: o.6px;
 }
 
-.Open{
+.Open-discord{
     padding: 16px 32px;
     border-radius: 28px;
     background-color: rgba(137, 117, 195, 0.768);
@@ -143,13 +143,13 @@ p{
     letter-spacing: 0.6px;
 }
 
-.Mac:hover{
+.Mac-download:hover{
    
     color:rgb(183, 112, 221) ;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.3);
 }
 
-.Open:hover{
+.Open-discord:hover{
     color:#f1eeee ;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.35);
 }
@@ -194,7 +194,7 @@ video{
     width: 400px;
 }
 
-.pp2{
+.ppt2{
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0); 
@@ -226,7 +226,7 @@ video{
     height: 640px;
 }
 
-.strip{
+.moving-text{
     width : 100%;
     display: flex;
     animation: 8s autoRun infinite linear;
@@ -244,7 +244,7 @@ video{
 }
 
 
-.strip1{
+.moving-text1{
     display: flex;
     background-color: rgba(239, 248, 117, 1);
     justify-content: space-around;
@@ -252,7 +252,7 @@ video{
 
    
 
-.strip h1{
+.moving-text h1{
     padding-top: 20px;
     height: 150px;
     margin: 0 0px;
@@ -330,7 +330,7 @@ video{
     letter-spacing: o.6px;
  }
 
-.butti {
+.downloas-mac {
     display: flex;
     justify-content: center;
 }
@@ -382,7 +382,7 @@ video{
     text-decoration: underline;
 }
  
-.hello{
+.sources{
     padding-right: 90px;
     padding-top: 160px;
     display: flex;
