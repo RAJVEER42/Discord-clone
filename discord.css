@@ -1,0 +1,426 @@
+*{
+    background-color: rgb(101, 59, 214);
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+    background-color: rgb(101, 59, 214);
+    align-items: center;
+
+}
+
+
+.nav-left{
+    background-color: rgb(101, 59, 214);
+}
+
+
+.nav-left img{
+    width: 124px;
+    height: auto;
+}
+
+
+.nav-center{
+    display: flex;
+    gap: 2.5rem;
+    letter-spacing: 1.5px;
+    font-family: "Cutive Mono", monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.nav-center a{
+    color: rgb(251, 255, 5);
+    text-decoration: none;
+}
+
+
+.nav-center a:hover{
+    text-decoration: underline;
+}
+
+
+.nav-right button{
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    font-weight: bolder;
+    background-color: rgb(98, 20, 170);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+
+.nav-right button:hover{
+    color: rgb(9, 0, 0);
+    box-shadow: 6px 6px 8px rgba(38, 38, 38, 0.7);
+}
+
+.bodyy{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(101, 59, 214);
+    align-items: center;
+    transition: 0.2s;
+}
+
+
+.content{
+    padding-left: 70px;
+    font-family: "Jersey 25", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    font-size:2.4cm;
+    padding-bottom: 6px;
+   color: white;
+}
+
+.photo{
+    padding-right: 60px;
+    padding-top: 5px;
+}
+
+p{
+    font-size: x-large;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 400px;
+    padding-bottom: 7px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+
+.hi{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(101, 59, 214) ;
+    padding-bottom: 40px;
+}
+
+.Mac{
+    padding: 16px 32px;
+     border-radius: 28px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Concert One", sans-serif;
+    letter-spacing: o.6px;
+}
+
+.Open{
+    padding: 16px 32px;
+    border-radius: 28px;
+    background-color: rgba(137, 117, 195, 0.768);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Concert One", sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.Mac:hover{
+   
+    color:rgb(183, 112, 221) ;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Open:hover{
+    color:#f1eeee ;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.35);
+}
+
+.page-2{
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+    padding: 25px;
+    background: rgba( 231, 214, 214, 0.1 );
+    background: rgba( 231, 214, 214, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 65px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );  
+    gap: 45px;
+    margin-left: 110px;
+    margin-right:  110px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+video{
+    width: 800px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+.p2 h1{
+    background-color: rgba(255, 255, 255, 0); 
+    color: white;
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2cm;
+    width: 400px;
+}
+
+.pp2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0); 
+    color: white;
+    width: 350px;
+    font-weight: 500px;
+    font-size: 0.5cm;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#v2{
+    width: 1230px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#v3{
+    padding-left: 50px;
+}
+
+#v4{
+    width: 1250px;
+}
+
+#v6{
+    width:1253px;
+    height: 640px;
+}
+
+.strip{
+    width : 100%;
+    display: flex;
+    animation: 8s autoRun infinite linear;
+    transition: 0.4s;
+}
+
+ 
+@keyframes autoRun {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }  
+}
+
+
+.strip1{
+    display: flex;
+    background-color: rgba(239, 248, 117, 1);
+    justify-content: space-around;
+}
+
+   
+
+.strip h1{
+    padding-top: 20px;
+    height: 150px;
+    margin: 0 0px;
+    background-color: rgba(239, 248, 117, 0.811); 
+} 
+
+
+
+
+.play{
+    width: 300px;
+    padding-left: 30px;
+    font-family: "Bungee Shade", sans-serif; 
+    color: black;  
+}
+
+.talk{
+    width: 300px;
+    padding-left: 45px;
+    font-family: "Bungee Shade", sans-serif; 
+    color: rgba(106, 59, 171, 0.847);      
+}
+
+.chat{
+    width: 300px;
+    padding-left: 45px;
+    font-family: "Bungee Shade", sans-serif; 
+    color: rgba(106, 59, 171, 0.847);   
+}
+
+.hangout{
+    width: 530px;
+    padding-left: 37px; 
+    font-family: "Bungee Shade", sans-serif; 
+    color: black;  
+}
+
+
+.end-text2 h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.end-text2 #end1{
+   font-family: "Lilita One", sans-serif;
+    font-size: 70px;
+    display: flex;
+    font-weight: 700;
+}
+
+.end-text2 #end2{
+    font-family: "Lilita One", sans-serif;
+    display: flex;
+    font-size: 70px;
+    position: relative;
+    bottom: 40px;
+}
+
+.end-button {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    display: inline;
+    background-color: rgb(139, 33, 231);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: "Concert One", sans-serif;
+    letter-spacing: o.6px;
+ }
+
+.butti {
+    display: flex;
+    justify-content: center;
+}
+
+.end-button:hover{
+    color:rgb(36, 1, 58) ;
+    box-shadow: 10px 10px 12px rgba(102, 0, 153, 0.885);
+ 
+}
+
+.last-image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#last-image{
+    padding-left: 20px;
+}
+
+.line{
+    margin: 0%;
+    height: 3px;
+    background-color: rgb(157, 99, 184);
+}
+
+.the-end{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.the-end-col{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.the-endcol a{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    gap: 0.2;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.the-endcol a:hover{
+    text-decoration: underline;
+}
+ 
+.hello{
+    padding-right: 90px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    gap: 30px;
+}
+ 
+.the-end img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.joy{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 0px 15px;
+}
+
+ 
+.nav-right-end button{
+    width: 90px;
+    height: 45px;
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: rgb(144, 120, 206);
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    transition: 0.2s;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: rgb(68, 6, 109);
+}
+
+
+.nav-right-end button:hover{
+    color: rgb(243, 243, 243);
+}
