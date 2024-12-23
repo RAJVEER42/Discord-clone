@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Trending</title>
+</head>
+<body class="relative overflow-x-hidden">
+
+    <nav class="relative z-10">
+        <div class="bg-neutral-800  max-w-screen-2xl mx-auto flex items-center justify-between h-20 px-4 relative">
+            <!-- Logo on left with link in it -->
+            <a href="https://github.com/dashboard" target="_blank">
+                <img class="h-10 w-18 cursor-pointer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvczLrPCr-sR2pANoU5NjErH6JYgbkjUEhQ&s" alt="GitHub Logo">
+            </a>
+
+            <div class="flex items-center">
+                <a href="https://github.com/login" target="_blank">
+                    <button class=" absolute right-4 top-6 font-mono bg-slate-200 text-slate-500 py-1 px-3 border-2 border-slate-500 rounded-lg  transition ease-in-out delay-100 hover:bg-slate-500 hover:text-slate-100 hover:border-slate-200 hover:scale-105 duration-400 cursor-pointer">
+                        Login
+                    </button>
+                </a>
+                    <!--log in buttom-->
+            </div>
+
+            <!-- Navbar buttons (Home, Trending, Search, Explore) -->
+            <div class="flex p-7 space-x-5 absolute left-1/4">
+                <!-- Home Button -->
+                <a href="http://127.0.0.1:5500/dist/index.html">
+                    <span class="cursor-pointer font-mono text-purple-500 inline-flex items-center rounded-lg border-2 border-purple-400 bg-purple-100 px-4 py-1 hover:bg-purple-400 hover:text-white hover:border-purple-100 transition-colors duration-300">
+                        Home
+                    </span>
+                </a>
+
+                <!-- Trending Button -->
+                <a href="http://127.0.0.1:5500/dist/Trending.html">
+                    <span class="cursor-pointer font-mono text-blue-500 inline-flex items-center rounded-lg border-2 border-sky-400 bg-sky-100 px-4 py-1 hover:bg-sky-500 hover:text-sky-100 hover:border-sky-100 transition-colors duration-300">
+                        Trending
+                    </span>
+                </a>
+
+                <!-- Search and Explore Buttons (Aligned inline) -->
+                <div class="flex items-center space-x-5">
+                    <input type="text" placeholder="Search..." class="px-4 py-1 rounded-xl w-72 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+                    <button class="bg-yellow-100 text-yellow-500 px-3 py-1 border-2 border-yellow-400 rounded-lg hover:bg-yellow-400 focus:outline-none hover:border-yellow-200 hover:text-yellow-100 transition-colors duration-200">
+                        Search
+                    </button>
+                    <button class="bg-green-100 text-green-500 px-4 py-1 border-2 border-green-500 rounded-lg hover:bg-green-400 hover:border-green-200 focus:outline-none hover:text-green-100 transition-colors duration-200">
+                        Explore
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div>
+        <div class="bg-gradient-to-r from-black to-red-800 p-6 h-screen pt-5  items-center">
+            <div class="flex justify-evenly ">
+
+                <!-- First Box: Code of the Year -->
+                <div class="bg-white bg-opacity-20 backdrop-blur-lg rounded-xl shadow-xl py-10 px-10 w-900px] h-[500px] hover:bg-opacity-40 transition duration-300 flex flex-col items-center justify-center">
+                    <h2 class="text-white text-3xl font-bold mb-4 text-center">✨Code of the Year...</h2>
+                    <!-- Centered Image -->
+                    <img class="w-[450px] h-[300px] object-cover mb-4" src="https://images.pexels.com/photos/3355389/pexels-photo-3355389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image">
+                    <p class="text-slate-600 text-center">This box has a frosted-glass effect, and it changes when you hover over it. You can add your content here.</p>
+                </div>
+        
+                <!-- Second Box: Image 2 -->
+                <div class=" bg-white bg-opacity-20 backdrop-blur-lg rounded-xl shadow-xl py-10 px-10 w-[500px] h-[740px] hover:bg-opacity-40 transition duration-300 flex flex-col items-center justify-center">
+                    <h2 class="text-white text-3xl font-bold mb-4 text-center">Top 10 ❤️‍🔥</h2>
+                    <!-- Centered Image -->
+                    <img class="w-300px] h-[560px] object-cover mb-4" src="https://images.pexels.com/photos/5821029/pexels-photo-5821029.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image">
+                    <p class="text-slate-600 text-center">This box has a frosted-glass effect, and it changes when you hover over it. You can add your content here.</p>
+                </div>
+                
+            </div>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
